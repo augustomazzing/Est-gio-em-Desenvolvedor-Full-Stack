@@ -35,7 +35,7 @@ function displayResults(products) {
 
     const reviewCount = document.createElement('p');
     reviewCount.textContent = `Número de avaliações: ${product.reviewCount}`;
-
+    
     productDiv.appendChild(image);
     productDiv.appendChild(title);
     productDiv.appendChild(rating);
